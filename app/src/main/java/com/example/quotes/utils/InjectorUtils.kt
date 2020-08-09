@@ -4,7 +4,7 @@ import com.example.quotes.model.Database
 import com.example.quotes.model.QuoteRepository
 import com.example.quotes.view.QuotesViewModelFactory
 
-class InjectorUtils {
+object InjectorUtils {
     // This will be called from QuotesActivity
     fun provideQuotesViewModelFactory(): QuotesViewModelFactory {
         // ViewModelFactory needs a repository, which in turn needs a DAO from a database
