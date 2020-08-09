@@ -1,4 +1,4 @@
-package com.example.quotes.ui
+package com.example.quotes.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
